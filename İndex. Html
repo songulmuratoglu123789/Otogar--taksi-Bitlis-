@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Otogar Taksi | Bitlis</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 40px 25px;
+    background:
+        linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+        url("taksi.jpg") center/cover no-repeat;
+}
+
+.content {
+    max-width: 700px;
+}
+
+.badge {
+    background: #f5c400;
+    color: #111;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 25px 0 5px;
+}
+
+h2 {
+    color: #f5c400;
+}
+
+p {
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+a {
+    padding: 16px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.call {
+    background: #f5c400;
+    color: #111;
+}
+
+.whatsapp {
+    background: #25d366;
+    color: white;
+}
+
+.info {
+    text-align: center;
+    padding: 50px 20px;
+    background: #181818;
+}
+
+.card {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #242424;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #aaa;
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+    <div class="content">
+
+        <span class="badge">🚕 7/24 HİZMET</span>
+
+        <h1>OTOGAR TAKSİ</h1>
+
+        <h2>📍 Bitlis Otogar</h2>
+
+        <p>
+            Güvenli, konforlu ve hızlı ulaşım için
+            Otogar Taksi. Bitlis Otogar'dan
+            ulaşım ihtiyaçlarınız için bize ulaşabilirsiniz.
+        </p>
+
+        <div class="buttons">
+            <a class="call" href="tel:+905374645883">
+                📞 Hemen Ara
+            </a>
+
+            <a class="whatsapp"
+               href="https://wa.me/905374645883"
+               target="_blank">
+                💬 WhatsApp
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section class="info">
+
+    <h2>Otogar Taksi</h2>
+
+    <div class="card">
+        📍 <strong>Konum</strong><br>
+        Bitlis Otogar
+    </div>
+
+    <div class="card">
+        🕐 <strong>Hizmet</strong><br>
+        7 gün 24 saat
+    </div>
+
+    <div class="card">
+        📞 <strong>Telefon</strong><br>
+        +90 537 464 58 83
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Otogar Taksi · Bitlis
+</footer>
+
+</body>
+</html>
